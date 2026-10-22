@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>みんなの質問と回答｜AI・データサイエンス講座</title>
+  <meta name="description" content="AI・データサイエンス講座について、みなさんから寄せられた質問と回答を掲載しています。">
+  <meta property="og:title" content="みんなの質問と回答｜AI・データサイエンス講座">
+  <meta property="og:description" content="講座の内容、参加・申し込み、持ち物などについての質問と回答をご覧いただけます。">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="qa.js" defer></script>
+</head>
+<body>
+  <main class="page-shell qa-page">
+    <header class="qa-header">
+      <p class="audience-label">AI・データサイエンス講座</p>
+      <h1>みんなの質問と回答</h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="last-updated" id="last-updated" hidden></p>
+    </header>
+
+    <section class="qa-content" aria-labelledby="qa-search-label">
+      <label class="search-label" id="qa-search-label" for="qa-search">キーワードで探す</label>
+      <div class="search-wrap">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg>
+        <input id="qa-search" type="search" placeholder="質問・回答を検索" autocomplete="off">
+      </div>
+
+      <div id="qa-status" class="status-message" role="status" aria-live="polite">読み込み中…</div>
+      <div id="qa-list" class="qa-list" hidden></div>
+    </section>
+
+    <footer class="qa-footer">
+      <a class="secondary-action" id="qa-question-link" target="_blank" rel="noopener noreferrer">質問する（匿名OK）<span aria-hidden="true">›</span></a>
+      <a class="back-link" href="index.html">トップに戻る</a>
+    </footer>
+  </main>
+</body>
+</html>
