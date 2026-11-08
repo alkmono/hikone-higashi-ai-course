@@ -5,7 +5,7 @@
   if (!config) return;
 
   document.getElementById("course-first").textContent = config.courseSchedule.first;
-  document.getElementById("course-later").textContent = config.courseSchedule.secondAndThird;
+  document.getElementById("course-second").textContent = config.courseSchedule.second;
   document.getElementById("briefing-date").textContent = config.briefingDateTime;
   document.getElementById("venue").textContent = config.venue;
 

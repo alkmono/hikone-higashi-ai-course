@@ -9,12 +9,12 @@ window.SITE_CONFIG = Object.freeze({
   qaCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRm8c8vD-nKENgPTH-WhkTBby4Ilq_jdzX5PPwaYT-YNjMeyoJsYKdyj31FaPiBPbuV0pSP9cWA-Abi/pub?output=csv",
 
   courseSchedule: {
-    first: "11月14日（土）14時〜",
-    secondAndThird: "11月21日（土）・28日（土）14時〜"
+    first: "2026年12月12日（土）9:45〜10:45",
+    second: "2027年1月23日（土）9:45〜12:00"
   },
-  briefingDateTime: "10月31日（土）16:00〜16:30",
-  venue: "彦根東高校内（教室は後日お知らせします）",
-  applicationDeadline: "11月6日（金）",
+  briefingDateTime: "2026年11月19日（木）15:30〜16:30",
+  venue: "稽古館",
+  applicationDeadline: "申込フォームをご確認ください",
 
   briefingRegistrationOpen: true,
   courseApplicationOpen: true

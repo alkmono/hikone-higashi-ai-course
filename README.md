@@ -11,7 +11,7 @@
 - `questionFormUrl`: 匿名質問フォームのURL
 - `qaCsvUrl`: 公開用Q&AスプレッドシートのCSV URL
 - `courseSchedule.first`: 第1回の日程
-- `courseSchedule.secondAndThird`: 第2・3回の日程
+- `courseSchedule.second`: 第2回の日程
 - `briefingDateTime`: 説明会の日時
 - `venue`: 会場名
 - `applicationDeadline`: 講座の申し込み締切日
