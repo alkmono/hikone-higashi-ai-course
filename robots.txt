@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# 検索結果への掲載防止は各HTMLの noindex 指定で行います。
+# noindex を検索エンジンに読み取らせるため、robots.txt ではクロールを遮断しません。
