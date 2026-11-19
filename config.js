@@ -4,7 +4,7 @@
  */
 window.SITE_CONFIG = Object.freeze({
   briefingFormUrl: "https://forms.gle/2EQ8CP29ruA14btT6",
-  courseFormUrl: "https://forms.gle/PEAife2aR15JxKDB8",
+  courseFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdg1FE-9f0HMvCxasy-YE1eoRuMxK3yBmSagQSaPlnRv4suKQ/viewform?usp=dialog",
   questionFormUrl: "https://forms.gle/HSmRaCTw8Fk2rgXU9",
   qaCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRm8c8vD-nKENgPTH-WhkTBby4Ilq_jdzX5PPwaYT-YNjMeyoJsYKdyj31FaPiBPbuV0pSP9cWA-Abi/pub?output=csv",
 
@@ -16,6 +16,6 @@ window.SITE_CONFIG = Object.freeze({
   venue: "稽古館",
   applicationDeadline: "申込フォームをご確認ください",
 
-  briefingRegistrationOpen: true,
+  briefingRegistrationOpen: false,
   courseApplicationOpen: true
 });
