@@ -13,7 +13,7 @@ window.SITE_CONFIG = Object.freeze({
     second: "2027年1月23日（土）9:45〜12:00"
   },
   briefingDateTime: "2026年11月19日（木）15:30〜16:30",
-  venue: "稽古館",
+  venue: "情報教室",
   applicationDeadline: "申込フォームをご確認ください",
 
   briefingRegistrationOpen: false,
